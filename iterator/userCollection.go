@@ -6,6 +6,6 @@ type userCollection struct {
 
 func (u *userCollection) createIterator() iterator {
 	return &userIterator{
-		user: u.users,
+		users: u.users,
 	}
 }
